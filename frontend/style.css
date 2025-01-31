@@ -1,0 +1,157 @@
+
+.purple-text {
+    color: #8C1AF6;
+    transition-duration: 0.4s;
+}
+
+
+.purple-background {
+    background-color: #bf8ffd;
+}
+
+
+.purple-text:hover {
+    color: #aa46f6;
+}
+
+
+.card-yellow {
+    font-family: fantasy;
+    background-image: linear-gradient(#ffd71e, #fae851);
+    color: white;
+    border-radius: 1rem;
+    box-shadow: #3c3c3c 0rem 2rem 3rem;
+    transform: rotateX(30deg);
+    transition-duration: 0.7s;
+
+}
+
+
+.card-yellow:hover {
+    transform: rotateX(0deg);
+    box-shadow: #535353 0rem 0rem 3rem;
+}
+
+.card-background {
+    position: absolute;
+    top: 20rem;
+    width: 28rem;
+    border-radius: 1rem;
+    transition-duration: 0.7s;
+}
+
+
+.card-black {
+    font-family: fantasy;
+    background-image: linear-gradient(#3a3a3a, #4e4e4e);
+    color: white;
+    border-radius: 1rem;
+    box-shadow: #3c3c3c 0rem 2rem 3rem;
+    transform: rotateX(30deg);
+    transition-duration: 0.7s;
+
+}
+
+
+.card-black:hover {
+    box-shadow: #535353 0rem 0rem 3rem;
+    transform: rotateX(0deg);
+}
+
+.card-background-black {
+    position: absolute;
+    top: 16.4rem;
+    width: 28rem;
+    background-color: #2b2b2b;
+    border-radius: 1rem;
+    transition-duration: 0.7s;
+}
+
+
+.card-green {
+    font-family: fantasy;
+    background-image: linear-gradient(#54814e, #668361);
+    color: white;
+    border-radius: 1rem;
+    box-shadow: #3c3c3c 0rem 2rem 3rem;
+    transform: rotateX(30deg);
+    transition-duration: 0.7s;
+
+}
+
+
+.card-purple:hover {
+    box-shadow: #535353 0rem 0rem 3rem;
+    transform: rotateX(0deg);
+}
+
+.card-background-purple {
+    position: absolute;
+    top: 16.4rem;
+    width: 28rem;
+    background-color: #456741;
+    border-radius: 1rem;
+    transition-duration: 0.7s;
+}
+
+
+.card-anim {
+    animation: cards 20s linear infinite;
+    font-family: fantasy;
+    background-color: #353535;
+    color: white;
+    border-radius: 1rem;
+    box-shadow: #3c3c3c 0rem 0rem 3rem;
+    transition-duration: 0.7s;
+}
+
+.card-anim:hover {
+    font-family: fantasy;
+    background-color: #353535;
+    color: white;
+    border-radius: 1rem;
+    box-shadow: #3c3c3c 0rem 0rem 6rem;
+
+}
+
+@keyframes cards {
+    0% {
+        background-color: #353535
+    }
+    8% {
+        background-color: #353535
+    }
+    16% {
+        background-color: #ffd71e
+    }
+    24% {
+        background-color: #ffd71e
+    }
+    32% {
+        background-color: #54814e
+    }
+    40% {
+        background-color: #54814e
+    }
+    48% {
+        background-color: #353535
+    }
+    56% {
+        background-color: #353535
+    }
+    64% {
+        background-color: #ffd71e
+    }
+    72% {
+        background-color: #ffd71e
+    }
+    80% {
+        background-color: #54814e
+    }
+    88% {
+        background-color: #54814e
+    }
+    100% {
+        background-color: #353535
+    }
+}
